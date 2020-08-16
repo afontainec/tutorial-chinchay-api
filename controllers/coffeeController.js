@@ -1,6 +1,5 @@
 const path = require('path');
-const { httpResponse } = require('codemaster');
-const { Table, ErrorHandler, Access } = require('chinchay');
+const { Table, ErrorHandler, Access, httpResponse } = require('chinchay');
 const HateoasGenerator = require('chinchay').Hateoas;
 const Coffee = require('../models/coffee');
 
